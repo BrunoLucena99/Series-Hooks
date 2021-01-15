@@ -17,11 +17,18 @@ const SerieCard = ({serie, isFirstColumn}) => {
             onPress={() => navigation.navigate('SerieDetailPage', {serie})}
         >
             <View style={styles.card}>
-                <Image
-                    style={styles.logo} 
-                    source={{uri: serie.img}}
-                    resizeMode="cover"
-                />
+                {
+                    serie.img64
+                        ? <Image
+                            style={styles.logo}
+                            source={{
+                                uri:`data:image/png;base64,${serie.img64}`
+                            }}
+                            resizeMode="cover"
+                          />
+                        : null
+                }
+
                 <View style={styles.cardTitleWrapper}>
                     <Text style={styles.cardTitle}>{serie.title}</Text>
                 </View>

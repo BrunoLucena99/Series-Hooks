@@ -42,7 +42,14 @@ export default function App() {
 
       <Stack.Screen
         name="SerieFormPage"
-        options={{title: 'Nova Série'}}
+        options={({route}) => {
+          if(route.params) {
+            const {serieToEdit} = route.params;
+            return {title: serieToEdit.title}
+          } else {
+            return {title: 'Nova Série'}
+          }
+        }}
         component={SerieFormPage} 
       />
       

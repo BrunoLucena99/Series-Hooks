@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { TextInput, StyleSheet, Button, Text, SafeAreaView , ActivityIndicator, Alert} from 'react-native';
+import { TextInput, StyleSheet, Button, Text, SafeAreaView , ActivityIndicator} from 'react-native';
 import FormRow from '../components/FormRow';
 import {tryLogin} from '../actions';
 

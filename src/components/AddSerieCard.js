@@ -1,5 +1,6 @@
 import React from 'react';
-import { View, Text, Image, StyleSheet, Dimensions, TouchableOpacity } from 'react-native';
+import { View, StyleSheet, Dimensions, TouchableOpacity } from 'react-native';
+import { Feather } from '@expo/vector-icons'; 
 
 const {height, width} = Dimensions.get('window');
 
@@ -14,10 +15,7 @@ const AddSerieCard = ({serie, isFirstColumn, onPress}) => {
             onPress={() => onPress()}
         >
             <View style={styles.card}>
-                <Image
-                    style={styles.logo}  
-                    source={require('../../resources/plus.png')}
-                />
+                <Feather name="plus-circle" size={150} color="#6CA2F7" /> 
             </View>
         </TouchableOpacity>
     );
@@ -34,11 +32,7 @@ const styles = StyleSheet.create({
         flex: 1,
         borderWidth: 1,
         justifyContent: 'center',
-    },
-    logo: {
-        width: '80%',
-        height: '80%',
-        alignSelf: 'center',
+        alignItems: 'center',
     },
     firstColumn: {
         paddingLeft: 10,
