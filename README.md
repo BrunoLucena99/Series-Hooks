@@ -40,5 +40,5 @@ $ yarn start
 
 Bruno Henrique. Entre em contato!!
 
-[![Linkedin Badge](https://img.shields.io/badge/-Bruno-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/bruno-lucena99/)](https://www.linkedin.com/in/tgmarinho/) 
+[![Linkedin Badge](https://img.shields.io/badge/-Bruno-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/bruno-lucena99/)](https://www.linkedin.com/in/bruno-lucena99/) 
 [![Gmail Badge](https://img.shields.io/badge/-brunohenriquelucena@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:brunohenriquelucena@gmail.com)](mailto:brunohenriquelucena@gmail.com)
